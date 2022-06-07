@@ -51,11 +51,11 @@ function App() {
     <div className="max-w-4xl mx-auto px-4 py-10">
       <button
         onClick={() => fetchData()}
-        className="cursor-pointer bg-gray-800 text-white px-4 py-2 w-full rounded-md md:w-40"
+        className="cursor-pointer font-poppins bg-gray-800 text-white px-1 py-2 w-full rounded-md md:w-40"
       >
         Generate a Recipe
       </button>
-      <h1 className="text-4xl font-bold mt-6 underline">{strMeal}</h1>
+      <h1 className="text-4xl font-bold mt-6 underline tracking-wide font-fancy">{strMeal}</h1>
       <div className="md:grid md:grid-cols-2 md:gap-4">
         <div className="mt-4 border-500 border-2  h-80">
           <img
@@ -65,18 +65,18 @@ function App() {
           />
         </div>
         <div className="my-6">
-          <h3 className="text-4xl font-bold mb-2">Ingredients</h3>
+          <h3 className="text-4xl font-bold font-poppins mb-2">Ingredients</h3>
           {ingredients.map((item, index) => renderList(item, index))}
         </div>
       </div>
       <div>
-        <h3 className="text-2xl font-bold mb-2 mt-6">
+        <h3 className="text-2xl font-bold mb-2 mt-6 font-poppins">
           Step by Step Instructions
         </h3>
         <p>{strInstructions}</p>
       </div>
       <span>
-        <h3 className="text-2xl font-bold mb-2 mt-6">
+        <h3 className="text-2xl font-bold mb-2 mt-6 font-poppins">
           Watch Video Tutorial
         </h3>
       </span>
