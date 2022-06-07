@@ -1,0 +1,13 @@
+.App{
+  /*background-color: aqua;*/
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: minmax(95vh,100vh);
+  box-sizing: border-box;
+  font-family: "Poppins", "Montserrat", "Open Sans", sans-serif,
+    "Dancing Script", cursive;
+}
+.container{
+  width: 100%;
+}
